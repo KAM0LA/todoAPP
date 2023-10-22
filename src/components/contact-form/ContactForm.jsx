@@ -22,10 +22,12 @@ export class ContactForm extends Component {
               <option value="high">Favourites</option>
               <option value="middle">Family</option>
               <option value="low">Friends</option>
+              <option value="low">Relatives</option>
+              <option value="low">Others</option>
             </Form.Select>
           </Form.Group>
           <Button type="submit" className="w-100">
-            Add todo
+            Add Contact
           </Button>
         </Form>
       </div>

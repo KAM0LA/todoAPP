@@ -5,7 +5,7 @@ export class Header extends Component {
   render() {
     return (
       <InputGroup className="my-3">
-        <Form.Control placeholder="Searching todo" />
+        <Form.Control placeholder="Searching contact" />
         <InputGroup.Text id="basic-addon2">Contact sections</InputGroup.Text>
       </InputGroup>
     );
